@@ -19,11 +19,13 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-info fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Satria Nugraha</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="#home">Satria Nugraha</a>
+        <!-- button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSuportedContent" aria-controls="navbarSuportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <!-- end button -->
+        <div class="collapse navbar-collapse" id="navbarSuportedContent">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#home">Home</a>
@@ -142,7 +144,7 @@
           <div class="col-md-6">
             <!-- alerts -->
             <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
-              <strong>Horeee!!</strong> Pesan anda sudah masuk ke hati.
+              <strong>Horeee!!</strong> Pesan anda sudah tersimpan
               <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
             <!-- end alert -->
@@ -180,8 +182,8 @@
     <!-- end contact -->
 
     <footer class="bg-info text-center text-white p-3">
+      <p>Created by <a href="https://lynk.id/satrianugraha" target="_blank" class="text-white fw-bold">Satria Nugraha </a></p>
       <p>
-        Created by <a href="https://www.linkedin.com/in/nugsatr/" target="_blank" class="text-white fw-bold">Satria Nugraha </a>
         <i class="bi bi-linkedin"></i>
       </p>
     </footer>
@@ -213,5 +215,7 @@
           .catch((error) => console.error("Error!", error.message));
       });
     </script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>
